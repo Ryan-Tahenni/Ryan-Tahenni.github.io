@@ -1,7 +1,7 @@
 :root{
     --dark_mode : rgb(40, 40, 40);
-    --border : rgb(101, 126, 176);
-    --link : rgb(118, 118, 239);
+    --border : rgb(60, 60, 60);
+    --link : rgb(102, 204, 255);
 }
 
 body{
@@ -12,23 +12,20 @@ body{
 }
 div{
     padding: 20px;
-    border: 1px solid var(--border);
+    background-color: var(--border);
+    margin: 2px;
 }
 
 a{
     color: var(--link);
 }
-img{
-    border-radius: 50px;
-}
 
 nav{
-    position: sticky;
+    position: fixed;
     background-color: var(--dark_mode);
 }
 .links{
     padding: 0px;
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -36,7 +33,9 @@ nav{
 }
 .navig{
     vertical-align: middle;
-    border: 1px solid var(--border);
     border-radius: 0px;
-    padding: 10px;
+    padding: 3px;
+}
+.navig:hover{
+  background-color: var(--dark_mode)
 }
