@@ -11,6 +11,7 @@
     --orange: #846357;
 
     --small-img: 40%;
+    --one-third: 33.33%;
     --small-distance: 10px;
     --big-distance: 30px;
 }
@@ -63,6 +64,7 @@ summary{
 }
 
 .repo{
+    width: var(--one-third);
     background-color: var(--gray);
     border-radius: var(--small-distance);
     color: var(--white);
