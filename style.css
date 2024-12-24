@@ -80,6 +80,7 @@ summary{
 
 .repoimgcard{
     width: var(--small-img);
+    height: var(--small-img);
     margin: var(--small-distance);
     border-radius: var(--small-distance);
 }
