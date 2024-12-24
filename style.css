@@ -88,3 +88,7 @@ summary{
 footer{
     background-color: var(--gray);
 }
+
+footer > a{
+    color: var(--white);
+}
